@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+if [ -e /tmp/sample_app.pid ];then
+  PID=$(cat /tmp/sample_app.pid | cut -f 1 -d '')
+  echo ${PID}
+  kill -INT ${PID} && rm -f /tmp/sample_app.pid
+  echo "Shutting down server ...."
+fi
+  

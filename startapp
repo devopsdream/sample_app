@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script starts the server
+#This script is written by "Tonny Ouma:
+/home/rails-dev/dev/sample_app/bin/rails server -p 8000 -d --pid=/tmp/sample_app.pid
