@@ -43,7 +43,7 @@ group :test do
  gem 'capybara','~> 1.1.2'
 end
 group :production do
- gem 'pg'
+ #gem 'pg'
 end
 # Use unicorn as the app server
 # gem 'unicorn'
